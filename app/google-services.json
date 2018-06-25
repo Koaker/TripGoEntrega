@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "309739779261",
+    "firebase_url": "https://tripgo-211ff.firebaseio.com",
+    "project_id": "tripgo-211ff",
+    "storage_bucket": "tripgo-211ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309739779261:android:89cbaf46ca671f31",
+        "android_client_info": {
+          "package_name": "com.example.a4july.tripgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309739779261-0i29ifou0r2d2ki0uk0jkb6k59h2e788.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnrZfd7rzahmaTwyV6k5fIs8WqjOL8GlY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

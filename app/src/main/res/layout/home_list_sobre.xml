@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/hotelimg"
+        android:layout_width="162dp"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="24dp"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/hotelNome"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/hotelPais"
+        android:layout_alignTop="@+id/hotelimg"
+        android:fontFamily="@font/amiko"
+        android:padding="2dp"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hotelPais"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/amiko"
+        android:padding="2dp"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hotelEstado"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/hotelNome"
+        android:layout_marginTop="107dp"
+        android:fontFamily="@font/amiko"
+        android:padding="2dp"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hotelEndereco"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/hotelNome"
+        android:layout_marginTop="146dp"
+        android:fontFamily="@font/amiko"
+        android:padding="2dp"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hotelPrice"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/hotelNome"
+        android:layout_marginTop="185dp"
+        android:fontFamily="@font/amiko"
+        android:padding="2dp"
+        android:text="TextView"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/hotelClasse"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/hotelimg"
+        android:layout_alignStart="@+id/hotelNome"
+        android:fontFamily="@font/amiko"
+        android:padding="2dp"
+        android:text="TextView"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/addtocart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="143dp"
+        android:text="Adicionar ao carrinho"/>
+
+    <TextView
+        android:id="@+id/hotelDesc"
+
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="237dp"
+        android:fontFamily="@font/amiko"
+        android:padding="2dp"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
